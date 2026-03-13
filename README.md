@@ -26,6 +26,7 @@ Test the C Program for the desired output.
 ## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -39,6 +40,8 @@ Test the C Program for the desired output.
 
 
 >>>>>>> a0a8cdb (Update local README)
+=======
+>>>>>>> 5ba6b6c (Updated code formatting)
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
