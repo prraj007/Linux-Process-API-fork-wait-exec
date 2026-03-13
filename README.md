@@ -25,13 +25,34 @@ Test the C Program for the desired output.
 
 ## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
 ```
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> a0a8cdb (Update local README)
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
 
+<<<<<<< HEAD
 int main() 
 int pid = fork();
+=======
+int main() {
+
+    int pid = fork();
+
+>>>>>>> a0a8cdb (Update local README)
     if(pid == 0) {
         printf("I am child, my PID is %d\n", getpid());
         printf("My parent PID is %d\n", getppid());
@@ -40,6 +61,10 @@ int pid = fork();
         printf("I am parent, my PID is %d\n", getpid());
         wait(NULL);
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a0a8cdb (Update local README)
     return 0;
 }
 ```
