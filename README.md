@@ -91,7 +91,7 @@ int pid = fork();
 
 
 ##OUTPUT
-
+/home/praveen_11/os/exp2/Linux-Process-API-fork-wait-exec/img/exp2(img2).png
 
 
 
